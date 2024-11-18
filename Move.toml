@@ -1,0 +1,17 @@
+[package]
+name = "indresh"
+version = "1.0.0"
+authors = []
+
+[addresses]
+contract_addr = "0x82cc89e747697f4a8d44d7e32cb5ad0e0c784d0dddefff16cf74fcff7462c6a6"
+
+[dev-addresses]
+contract_addr = "0x82cc89e747697f4a8d44d7e32cb5ad0e0c784d0dddefff16cf74fcff7462c6a6"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
